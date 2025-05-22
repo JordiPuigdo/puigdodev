@@ -1,0 +1,13 @@
+.next/
+node_modules/
+storybook-static/
+build-storybook.log
+.history/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

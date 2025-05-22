@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@config "./../../tailwind.config.ts";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap');
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 1px 1px 2px black;
+  }
+}
+
+
+.wave {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  transform-origin: 70% 70%; 
+  font-size: 3rem;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-10deg); }
+  20% { transform: rotate(12deg); }
+  30% { transform: rotate(-10deg); }
+  40% { transform: rotate(9deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+:root {
+  --font-fivo-sans: 'Fivo Sans Black', sans-serif; 
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

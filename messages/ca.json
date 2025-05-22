@@ -1,0 +1,212 @@
+{
+  "home": {
+    "title": "HOLA!",
+    "name": "Sóc en Jordi", 
+    "description": "Desenvolupador de software apassionat de la tecnologia",
+    "typewriterTexts": [
+      "Full-Stack Developer",
+      "Emprenador i cul inquiet",
+      "Innovant amb la tecnologia"
+    ],
+    "introduction": {
+    "heading": "Què faig amb la meva vida?",
+    "paragraph1": "💻 Treballo de <*Full-Stack Developer*> amb tecnologies com: *React.js*, *Next.js*, *.NET*, entre d'altres. Amb bases de dades com *SQL Server* i *MongoDB*.",
+    "paragraph2": "🚀 Soc una persona proactiva i intento sempre créixer tan personal com professionalment, ara mateix focalitzat amb <*IA*> i <*Blockchain*>.",
+    "paragraph3": "🏡  En l'àmbit personal em considero una persona involucrada en el meu poble, <*Centelles*>, sempre que puc col·laboro en ajudar les entitats de la Vila.",
+    "paragraph4": "🌍✈️ Els meus hobbies són <*viatjar*> i desconnectar a la <*muntanya*>, però en el meu temps lliure també soc <*PunxaDiscos*> a.k.a <*PD Puigdo*>."  }
+  },
+  "Nav": {
+    "home": "Inici",
+    "projects": "Projectes",
+    "about": "Sobre mi",
+    "contact": "Contacte",
+    "blog": "Blog",
+    "experience" : "Experiència"
+  },
+  "projects": {
+    "title": "DESCOBREIX ALGUNS DELS MEUS PROJECTES",
+    "subtitle": "Explora els meu treballs i contribucions",
+    "filters": {
+      "all": "Tots",
+      "web": "Web",
+      "app": "App",
+      "blockchain": "Blockchain",
+      "ia": "Intel·ligència Artificial"
+    },
+    "noProjects": "No hi ha projectes amb aquest filtre",
+    "viewCode": "Veure codi",
+    "viewDemo": "Veure demo",
+    "viewProjects": "Veure tots els projectes",
+    "footer": "No dubtis en <*contactar*> amb mi",
+    "items": [
+    {
+        "id": 1,
+        "title": "Holaglow",
+        "description": "CRM i eina comercial per ventes",
+        "tags": ["nextjs", "typescript", "tailwind", ".net"],
+        "category": ["web", "fullstack", "net"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 2,
+        "title": "Okron",
+        "description": "Projecte de gestió de manteniment",
+        "tags": ["nextjs", "typescript", "tailwind"],
+        "category": ["web", "fullstack", "net", "ia"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 3,
+        "title": "ChatBot IA",
+        "description": "Connectar la base de dades amb un ChatBot per extreure informació",
+        "tags": ["nextjs", "typescript", "tailwind"],
+        "category": ["web", "ia", "fullstack"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 3,
+        "title": "ChatBot IA",
+        "description": "Connectar la base de dades amb un ChatBot per extreure informació",
+        "tags": ["nextjs", "typescript", "tailwind"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 3,
+        "title": "Control Monetari",
+        "description": "Projecte de votació via Blockchain",
+        "tags": ["nextjs", "typescript", "tailwind"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 3,
+        "title": "Sistema Votació",
+        "description": "Projecte de votació via Blockchain",
+        "tags": ["nextjs", "typescript", "tailwind"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 4,
+        "title": "Massoler",
+        "description": "Web Corporativa",
+        "tags": ["wordpress"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 5,
+        "title": "Clinca Dental",
+        "description": "Web Corporativa per dentistes",
+        "tags": ["wordpress"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      },
+      {
+        "id": 6,
+        "title": "Mapex",
+        "description": "Diferents desenvolupaments per procesos productius i PRL",
+        "tags": ["wordpress"],
+        "category": ["web"],
+        "imageUrl": "/projects/portfolio.webp",
+        "githubUrl": "https://github.com/tuusuario/portfolio",
+        "liveUrl": "https://tudominio.com"
+      }
+    ]
+  },
+  "aboutMe" :{
+    "title": "DESCOBREIX QUI SOC",
+    "description": "I am a software engineer with a passion for building user-friendly and accessibl.",
+    "paragraph1": "Hola a tothom, em dic ¡*Jordi Puigdollers*¡ i soc de *Centelles*, *Barcelona*, *Catalunya*.",   
+    "paragraph2": "Actualment estic desenvolupant el meu propi projecte.",
+    "paragraph3": "Soc enginyer informàtic graduat a l'¡*UOC*¡.", 
+    "paragraph4": "A part de la tecnología i programar, també tinc interesos per:",
+    "interests": [
+      {"icon":"music", "text" : "*Música*"},
+      {"icon":"gamepad", "text" : "*Esports*"},
+      {"icon":"plane", "text" : "*Viatjar*"},
+      {"icon":"mountain", "text" : "*Muntanya*"},
+      {"icon":"book", "text" : "*Llegir*"}
+    ],
+    "tecnologies": "Tecnologies que utilitzo"
+  },
+  "contact": {
+    "getInTouch": "CONTACTA'M",
+    "withUs": "contacte amb mi",
+    "monThu": "Dll-Dij",
+    "friday": "Divendres",
+    "name": "Nom i cognoms",
+    "email": "Correu electrònic",
+    "message": "Missatge",
+    "send": "Envia",
+    "sending": "Enviant...",
+    "success": "El teu missatge s'ha enviat!",
+    "errors": {
+      "name": "El nom és obligatori",
+      "email": "Introdueix un correu electrònic vàlid",
+      "message": "El missatge és obligatori"
+    }
+  },
+  "experience": {
+    "title": "EXPERIÈNCIA",
+    "download": "Descarregar Currículum",
+    "items": [
+      {
+        "company": "Okron",
+        "role": "CTO",
+        "date": "2024 - Present",
+        "description": "Cofundador y desarrollador full-stack en Okron, un software de gestión de almacenes y mantenimiento. Trabajo en la arquitectura del sistema, asegurando escalabilidad y buenas prácticas con SOLID y DDD. Implemento patrones de diseño que reducen la latencia y mejoran la experiencia del usuario. Desarrollo el backend con C# y MongoDB y el frontend con React y Next.js. Además, implemento pipelines de CI/CD en Azure para optimizar los despliegues y la infraestructura en la nube.",
+        "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
+      },
+      {
+        "company": "Holaglow",
+        "role": "Fullstack Developer",
+        "date": "2023 - 2025",
+        "description": "Senior Full Stack Developer.Usar principios SOLID, Clean Code y patrones de diseño para los desarrollos. Desarrollar aplicación Front-End con React, Typescript, Nextjs y Angular. Desarrollar aplicación Back-End con C#, ASP.NET y microservicios. Net Core 6.0, Entity Framework, Linq. Base de datos con MySQL, SQL Server y MongoDB. Implementación de GraphQL y Kafka. Trabajar con metodologías agiles con SCRUM y Jira. Azure Devops, deployments y Github. Integración de tests automatizados vía postman y pipelines de azure, TDD.",
+        "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
+      },
+      {
+        "company": "Mapex",
+        "role": "Platform Developer",
+        "date": "2018 - 2023",
+        "description": "Técnico líder del equipo. Usar principios SOLID y patrones de diseño para los desarrollos. Trabajar con metodologías agiles cómo SCRUM y Jira. Desarrollar aplicaciones con VB.Net, C# y ASP.NET (Web y Api). Desarrollar customizaciones para clientes con POWER BI.",
+        "techStack": ["C#", "Asp.Net", "SQLServer"]
+      },
+      {
+        "company": "Alvic",
+        "role": "Developer",
+        "date": "2016 - 2018",
+        "description": "Desarrollador de software en C# y Delphi.",
+        "techStack": ["C#", "Delphi"]
+      }
+    ]
+  },
+  "blog":{
+    "title": "BLOG",
+    "subtitle": "Aquí podreu trobar articles tant professionals com personals"
+  },
+  "metadata" :{
+    "title": "Puigdo Dev",
+    "description": "Descripción de mi sitio",
+    "icons": {
+      "icon": "/favicon.ico"
+    }
+  }
+}
