@@ -59,26 +59,27 @@
       "liveUrl": "https://www.holaglow.com/"
       },
       {
-      "id": 2,
-      "title": "Okron",
-      "subtitle": "Test",
-      "slug": "okron-gmao",
-      "shortDescription": "Desenvolupament de la web, crm i gestió de ventes",
-      "description": "Web, CRM i eina comercial per ventes",
-      "metaTitle": "Holaglow CRM - Fullstack Project in Next.js & .NET",
-      "metaDescription": "Discover Holaglow, a fullstack CRM and sales tool built with Next.js, Tailwind CSS, and .NET.",
-      "tags": ["nextjs", "typescript", "tailwind", ".net"],
-      "category": ["web", "app"],
-      "techStack": "Next.js, TypeScript, Tailwind, .NET",
-      "role": "Fullstack Developer",
-      "publishedDate": "2024-03-15",
-      "duration": "Jan 2024 – Mar 2024",
-      "imageUrl": "/projects/OkronLogo.webp",
-      "detailImageUrl":"/projects/holaglowDetailProject.webp", 
-      "altText": "Screenshot of Holaglow CRM interface",
-      "githubUrl": "",
-      "liveUrl": "https://www.okron.io/"
+        "id": 2,
+        "title": "Okron",
+        "subtitle": "Una nova generació de GMAO intel·ligent i integrat amb IA, WhatsApp i control de planta en temps real.",
+        "slug": "okron-gmao",
+        "shortDescription": "GMAO intel·ligent per a PIMEs: gestió d'incidències, estocs i comandes amb IA i WhatsApp.",
+        "description": "Okron és una eina de gestió de manteniment (GMAO) dissenyada per optimitzar el funcionament de plantes industrials i empreses amb necessitats tècniques. Amb una interfície intuïtiva i enfocada a usabilitat, permet gestionar incidències, planificar manteniments, controlar l’estoc de recanvis i fer comandes a proveïdors — fins i tot via WhatsApp. Integrada amb IA i un chatbot propi, Okron automatitza processos clau i s’adapta fàcilment a sistemes de tercers, oferint una solució escalable i robusta tant per a PIMEs com per a entorns més grans. He liderat el desenvolupament tècnic com a CTO, creant l’arquitectura del sistema, la plataforma web i l’app mòbil des de zero amb un enfocament clar en escalabilitat i integracions intel·ligents.",
+        "metaTitle": "Okron GMAO - Gestió de Manteniment amb IA, WhatsApp i control intel·ligent",
+        "metaDescription": "Descobreix Okron, el GMAO intel·ligent per a PIMEs: gestiona incidències, estoc i comandes amb intel·ligència artificial i integració amb WhatsApp.",
+        "tags": ["nextjs", "typescript", "tailwind", ".net", "gmao", "intel·ligència artificial", "whatsapp api", "gestió de manteniment", "saas", "b2b"],
+        "category": ["web", "app"],
+        "techStack": "Next.js, TypeScript, Tailwind, .NET",
+        "role": "CTO / Fullstack Developer",
+        "publishedDate": "2024-03-15",
+        "duration": "Jan 2024 – Mar 2024",
+        "imageUrl": "/projects/OkronLogo.webp",
+        "detailImageUrl": "/projects/holaglowDetailProject.webp",
+        "altText": "Captura de pantalla de la interfície d'Okron GMAO",
+        "githubUrl": "",
+        "liveUrl": "https://www.okron.io/"
       }
+
     ]
   },
   "aboutMe" :{

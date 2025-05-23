@@ -1,8 +1,10 @@
-import { notFound } from "next/navigation";
+"use client";
+
+import { notFound, useParams } from "next/navigation";
+import { useLocale } from "next-intl";
 
 import { Project } from "@/types/project";
 import { getProjects } from "@/lib/getProjects";
-import { useLocale } from "next-intl";
 import ProjectHeader from "./ProjectHeader";
 import ProjectHero from "./ProjectHero";
 import Testimonials from "@/components/Trusted/TestimonialComponent";
@@ -10,16 +12,13 @@ import FooterProjectSection from "@/components/ui/FooterProjectSection";
 import { ProjectContent } from "./ProjectContent";
 import BackButton from "@/components/ui/BackButton";
 
-type ProjectPageProps = {
-  params: {
-    slug: string;
-  };
-};
-
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default function ProjectPage() {
   const locale = useLocale();
+  const params = useParams();
+  const slug = params?.slug as string;
+
   const projects: Project[] = getProjects(locale);
-  const project = (projects as Project[]).find((p) => p.slug === params.slug);
+  const project = projects.find((p) => p.slug === slug);
 
   if (!project) return notFound();
 
