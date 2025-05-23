@@ -8,13 +8,14 @@ import SocialLogoSection from "@/components/ui/SocialLogoSection";
 import { Title } from "@/designSystem/Title";
 import Text from "@/designSystem/Texts";
 import { motion } from "framer-motion";
+import { Section } from "@/components/layout/Section";
 
 const HeroSection: React.FC = () => {
   const t = useTranslations("home");
   const typewriterTexts = t.raw("typewriterTexts");
 
   return (
-    <section className="flex w-full justify-center bg-primary px-7 md:px-12 lg:px-48  shadow-md py-6">
+    <Section id="Hero" as="primary">
       <div className="flex flex-col-reverse items-center justify-between w-full max-w-6xl gap-12 lg:flex-row">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
@@ -47,7 +48,7 @@ const HeroSection: React.FC = () => {
           <img src="/assets/developer.svg" alt="Developer illustration" className="h-auto" />
         </motion.div>
       </div>
-    </section>
+    </Section>
   );
 };
 

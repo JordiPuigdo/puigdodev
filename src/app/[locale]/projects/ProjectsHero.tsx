@@ -1,48 +1,57 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { isMobile } from "react-device-detect";
+import { Section } from "@/components/layout/Section";
+import { motion } from "framer-motion";
 
 const ProjectsHero = () => {
   const t = useTranslations("projects");
 
   return (
-    <section className="relative ">
-      <div className="bg-gray-900 mb-14 md:mb-20  flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 z-10 px-7 md:px-12 lg:px-48 ">
-          <div className="flex flex-col">
-            <h1 className="font-heading text-2xl font-bold text-white mb-4">{t("title")}</h1>
-            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8">
-              {t("subtitle")}
-            </p>
+    <>
+      <Section id="Hero" as="secondary">
+        <div className="flex flex-col-reverse items-center justify-between w-full max-w-6xl gap-12 lg:flex-row">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="flex flex-col items-center justify-end w-full lg:w-1/2 space-y-6 lg:items-start md:items-center"
+          >
+            <div className="flex flex-col">
+              <h1 className="font-heading text-2xl font-bold text-white mb-4">{t("title")}</h1>
+              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8">
+                {t("subtitle")}
+              </p>
 
-            <div className="flex space-x-4">
-              <a
-                href="#projects-grid"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-              >
-                {t("viewProjects")}
-              </a>
+              <div className="flex space-x-4 transition-all duration-500 hover:scale-[1.02] ">
+                <a
+                  href="#projects-grid"
+                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+                >
+                  {t("viewProjects")}
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-        {!isMobile && (
-          <div className="md:w-1/2 relative">
-            <div className="relative w-full h-64 md:h-96 overflow-hidden">
+          </motion.div>
+          {!isMobile && (
+            <motion.div
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="w-full lg:w-1/2 flex justify-center items-center"
+            >
               <Image
                 src="/assets/goingUp.svg"
-                alt={"test"}
-                fill
-                className="object-center"
-                priority
+                alt="Developer illustration"
+                className="h-auto"
+                width={450}
+                height={450}
               />
-            </div>
-
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
-          </div>
-        )}
-      </div>
-
-      <div className="absolute bottom-0 left-0 right-0 overflow-hidden">
+            </motion.div>
+          )}
+        </div>
+      </Section>
+      <div className="w-full">
         <svg
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
@@ -64,7 +73,7 @@ const ProjectsHero = () => {
           ></path>
         </svg>
       </div>
-    </section>
+    </>
   );
 };
 

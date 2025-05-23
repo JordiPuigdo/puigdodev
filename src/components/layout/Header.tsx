@@ -61,7 +61,7 @@ export default function Header() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2">
+        <div className="md:hidden bg-white border-t-2 px-4 pb-4 space-y-2">
           {navItems.map(({ href, key }) => (
             <Link
               key={key}
@@ -69,7 +69,10 @@ export default function Header() {
               onClick={() => setIsOpen(false)}
               className={clsx(
                 "block text-base font-medium py-2 border-b border-gray-300",
-                pathname === href ? "text-primary" : "text-neutral-700"
+                (pathname.split("/")[2] == undefined && href === "/") ||
+                  pathname.split("/")[2] === href.replace("/", "")
+                  ? "text-blue-600"
+                  : "text-neutral-700"
               )}
             >
               {t(key)}

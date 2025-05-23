@@ -62,10 +62,15 @@ module.exports = {
             transform: "translateY(-10%)",
             animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
           },
+          "fade-in-up": {
+            "0%": { opacity: "0", transform: "translateY(20px)" },
+            "100%": { opacity: "1", transform: "translateY(0)" },
+          },
         },
       },
       animation: {
         bounceY: "bounceY 0.8s infinite",
+        "fade-in-up": "fade-in-up 0.8s ease-out forwards",
       },
     },
   },
