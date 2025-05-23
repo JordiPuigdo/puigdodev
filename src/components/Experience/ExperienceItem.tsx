@@ -15,8 +15,8 @@ const ExperienceItem: FC<ExperienceItemProps> = ({
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: true }}
-      className="group bg-white rounded-2xl p-6 border-l-4 border-blue-600 shadow-md hover:shadow-lg hover:scale-[1.01] transition-all"
+      viewport={{ once: true, amount: 0.5 }}
+      className="group bg-white rounded-2xl p-6 border-l-4 border-blue-600 shadow-md hover:shadow-lg hover:scale-[1.01] transition-transform transition-shadow"
     >
       <Text as="h3" size="lg" className="font-heading text-softblue">
         {role} <span className="text-primary500">@ {company}</span>
