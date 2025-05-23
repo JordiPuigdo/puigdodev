@@ -28,7 +28,11 @@ const AboutSection = () => {
           className="flex flex-col items-center justify-end w-full lg:w-1/2 space-y-6 lg:items-start md:items-center"
         >
           <div className="flex flex-col gap-4">
-            <Text as="h1" size="2xl" className="font-heading text-blue-600">
+            <Text
+              as="h1"
+              size="2xl"
+              className="font-heading text-blue-600 text-center sm:text-left"
+            >
               {t("title")}
             </Text>
 
