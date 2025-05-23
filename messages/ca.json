@@ -68,7 +68,7 @@
         "metaTitle": "Okron GMAO - Gestió de Manteniment amb IA, WhatsApp i control intel·ligent",
         "metaDescription": "Descobreix Okron, el GMAO intel·ligent per a PIMEs: gestiona incidències, estoc i comandes amb intel·ligència artificial i integració amb WhatsApp.",
         "tags": ["nextjs", "typescript", "tailwind", ".net" ],
-        "category": ["web", "app"],
+        "category": ["web", "app", "ia"],
         "techStack": "Next.js, TypeScript, Tailwind, .NET",
         "role": "CTO / Fullstack Developer",
         "publishedDate": "2024-03-15",
@@ -78,6 +78,26 @@
         "altText": "Captura de pantalla de la interfície d'Okron GMAO",
         "githubUrl": "",
         "liveUrl": "https://www.okron.io/"
+      },
+      {
+        "id": 3,
+        "title": "ChatBot IA",
+        "subtitle": "Assistència intel·ligent per a la teva base de dades",
+        "slug": "chatbot-ia-database",
+        "shortDescription": "Chatbot amb IA integrat amb la base de dades del client per respondre consultes de manera automatitzada i eficient.",
+        "description": "Aquest projecte consisteix en el desenvolupament d’un chatbot intel·ligent capaç de connectar-se directament amb la base de dades d’un client per extreure, interpretar i mostrar informació rellevant a través d'una interfície de conversa. Implementat amb Next.js, TypeScript i Tailwind CSS, el sistema permet realitzar consultes en llenguatge natural i obtenir respostes clares, millorant l’accessibilitat de dades internes i l’eficiència operativa. Ha estat dissenyat pensant en la seguretat, escalabilitat i flexibilitat, permetent adaptar-lo fàcilment a diferents estructures de dades i sectors.",
+        "metaTitle": "ChatBot IA amb accés directe a base de dades - Projecte Fullstack amb Next.js",
+        "metaDescription": "Descobreix aquest chatbot amb intel·ligència artificial que es connecta a la base de dades d'una empresa per respondre preguntes i extreure dades de manera eficient.",
+        "tags": ["react", "python", "ia"], 
+        "category": ["web", "ia", "fullstack"],
+        "techStack": "Next.js, TypeScript, Tailwind, PostgreSQL, OpenAI API",
+        "role": "Fullstack Developer",
+        "publishedDate": "2024-01-10",
+        "duration": "Desembre 2023 – Gener 2024",
+        "imageUrl": "/projects/portfolio.webp",
+        "altText": "Captura de pantalla del ChatBot IA amb consulta de dades",
+        "githubUrl": "",
+        "liveUrl": ""
       }
 
     ]

@@ -20,7 +20,7 @@ const ProjectCard = ({ project, translations }: ProjectCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:scale-[1.05] hover:shadow-xl hover:cursor-pointer"
+      className="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:scale-[1.05] hover:shadow-xl hover:cursor-pointer flex flex-col justify-between h-full"
     >
       <Link href={"/projects/" + project.slug} className="block">
         <div className="h-48 overflow-hidden">
@@ -35,7 +35,7 @@ const ProjectCard = ({ project, translations }: ProjectCardProps) => {
 
         <div className="p-6">
           <h3 className="text-xl font-heading font-bold mb-2">{project.title} </h3>
-          <div className="w-full max-w-[300px]">
+          <div className="w-full min-h-[64px]">
             <p className="text-gray-600 mb-4 break-words">{project.shortDescription}</p>
           </div>
           <div className="flex flex-wrap gap-2 mb-5">
