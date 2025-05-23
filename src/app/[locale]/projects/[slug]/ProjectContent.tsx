@@ -7,7 +7,7 @@ type ProjectContentProps = {
 
 export const ProjectContent = ({ project }: ProjectContentProps) => {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full  flex-col sm:flex-row ">
       <div className="w-full flex p-2 gap-2 mb-6">
         {project.tags.map((tag) => (
           <span
@@ -18,7 +18,7 @@ export const ProjectContent = ({ project }: ProjectContentProps) => {
           </span>
         ))}
       </div>
-      <div className="w-full flex flex-row gap-6 mb-6 justify-center">
+      <div className="w-full flex  gap-6 mb-6 justify-center">
         <div className="flex flex-col">
           <Text as="p" className="font-semibold">
             Rol

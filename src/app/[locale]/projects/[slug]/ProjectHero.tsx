@@ -7,7 +7,7 @@ type ProjectHeroProps = {
 };
 export default function ProjectHero({ description, imageUrl, altText }: ProjectHeroProps) {
   return (
-    <div className="flex gap-6 py-6">
+    <div className="flex flex-col sm:flex-row gap-6 py-6">
       <div className="flex w-full">
         <Image
           src={imageUrl}
