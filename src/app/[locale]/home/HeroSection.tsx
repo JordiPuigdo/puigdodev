@@ -30,10 +30,12 @@ const HeroSection: React.FC = () => {
             <WaveHand size="lg" className="ml-2" />
           </div>
           <div className="flex flex-col items-center lg:items-start">
-            <Text size="xl" className="font-pop">
+            <Text size="xl" className="font-pop ">
               {t("name")}
             </Text>
-            <Text size="l">{t("description")}</Text>
+            <Text size="l" className="text-center sm:text-left">
+              {t("description")}
+            </Text>
           </div>
           <Typewriter texts={typewriterTexts} speed={100} />
           <SocialLogoSection />

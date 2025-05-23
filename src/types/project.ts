@@ -1,11 +1,21 @@
 export type Project = {
   id: number;
   title: string;
+  subtitle: string;
+  slug: string;
+  shortDescription: string;
   description: string;
+  metaTitle?: string;
+  metaDescription?: string;
   tags: string[];
   category: string[];
+  role?: string;
+  duration?: string;
+  featured?: boolean;
+  priority?: number;
   imageUrl: string;
+  detailImageUrl: string;
+  altText?: string;
   githubUrl?: string;
   liveUrl?: string;
-  featured?: boolean;
 };

@@ -39,95 +39,45 @@
     "viewProjects": "Veure tots els projectes",
     "footer": "No dubtis en <*contactar*> amb mi",
     "items": [
-    {
-        "id": 1,
-        "title": "Holaglow",
-        "description": "CRM i eina comercial per ventes",
-        "tags": ["nextjs", "typescript", "tailwind", ".net"],
-        "category": ["web", "fullstack", "net"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
+      {
+      "id": 1,
+      "title": "Holaglow",
+      "subtitle": "Test",
+      "slug": "holaglow-crm",
+      "shortDescription": "Desenvolupament de la web, crm i gestió de ventes",
+      "description": "Desenvolupament de la web, crm i gestió de ventes",
+      "metaTitle": "Holaglow CRM - Fullstack Project in Next.js & .NET",
+      "metaDescription": "Discover Holaglow, a fullstack CRM and sales tool built with Next.js, Tailwind CSS, and .NET.",
+      "tags": ["nextjs", "typescript", "tailwind", ".net"],
+      "category": ["web", "app"],
+      "techStack": "Next.js, TypeScript, Tailwind, .NET",
+      "role": "Fullstack Developer",
+      "publishedDate": "2024-03-15",
+      "duration": "Juny 2023 – Juny 2025",
+      "imageUrl": "/projects/holaglow.webp",
+      "altText": "Screenshot of Holaglow CRM interface",
+      "githubUrl": "",
+      "liveUrl": "https://www.holaglow.com/"
       },
       {
-        "id": 2,
-        "title": "Okron",
-        "description": "Projecte de gestió de manteniment",
-        "tags": ["nextjs", "typescript", "tailwind"],
-        "category": ["web", "fullstack", "net", "ia"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 3,
-        "title": "ChatBot IA",
-        "description": "Connectar la base de dades amb un ChatBot per extreure informació",
-        "tags": ["nextjs", "typescript", "tailwind"],
-        "category": ["web", "ia", "fullstack"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 3,
-        "title": "ChatBot IA",
-        "description": "Connectar la base de dades amb un ChatBot per extreure informació",
-        "tags": ["nextjs", "typescript", "tailwind"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 3,
-        "title": "Control Monetari",
-        "description": "Projecte de votació via Blockchain",
-        "tags": ["nextjs", "typescript", "tailwind"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 3,
-        "title": "Sistema Votació",
-        "description": "Projecte de votació via Blockchain",
-        "tags": ["nextjs", "typescript", "tailwind"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 4,
-        "title": "Massoler",
-        "description": "Web Corporativa",
-        "tags": ["wordpress"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 5,
-        "title": "Clinca Dental",
-        "description": "Web Corporativa per dentistes",
-        "tags": ["wordpress"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
-      },
-      {
-        "id": 6,
-        "title": "Mapex",
-        "description": "Diferents desenvolupaments per procesos productius i PRL",
-        "tags": ["wordpress"],
-        "category": ["web"],
-        "imageUrl": "/projects/portfolio.webp",
-        "githubUrl": "https://github.com/tuusuario/portfolio",
-        "liveUrl": "https://tudominio.com"
+      "id": 2,
+      "title": "Okron",
+      "subtitle": "Test",
+      "slug": "okron-gmao",
+      "shortDescription": "Desenvolupament de la web, crm i gestió de ventes",
+      "description": "Web, CRM i eina comercial per ventes",
+      "metaTitle": "Holaglow CRM - Fullstack Project in Next.js & .NET",
+      "metaDescription": "Discover Holaglow, a fullstack CRM and sales tool built with Next.js, Tailwind CSS, and .NET.",
+      "tags": ["nextjs", "typescript", "tailwind", ".net"],
+      "category": ["web", "app"],
+      "techStack": "Next.js, TypeScript, Tailwind, .NET",
+      "role": "Fullstack Developer",
+      "publishedDate": "2024-03-15",
+      "duration": "Jan 2024 – Mar 2024",
+      "imageUrl": "/projects/OkronLogo.webp",
+      "altText": "Screenshot of Holaglow CRM interface",
+      "githubUrl": "",
+      "liveUrl": "https://www.okron.io/"
       }
     ]
   },
@@ -199,8 +149,8 @@
     ]
   },
   "blog":{
-    "title": "Benvingut al meu Blog",
-    "subtitle": "Escribir sobre el mundo del software"
+    "title": "BLOG",
+    "subtitle": "Aquí podreu trobar articles tant professionals com personals"
   },
   "metadata" :{
     "title": "Puigdo Dev",

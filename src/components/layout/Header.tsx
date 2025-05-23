@@ -35,7 +35,7 @@ export default function Header() {
               key={key}
               href={href}
               className={clsx(
-                "font-sans font-semibold text-l tracking-tight transition-colors border-b-4 hover:text-blue-600 hover:border-blue-600",
+                "font-sans font-semibold text-sm md:text-l tracking-tight transition-colors border-b-4 hover:text-blue-600 hover:border-blue-600",
                 (pathname.split("/")[2] == undefined && href === "/") ||
                   pathname.split("/")[2] === href.replace("/", "")
                   ? "text-blue-600 border-blue-600"

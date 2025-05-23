@@ -44,7 +44,7 @@ export default function Projects() {
       />
       <section
         id="projects-grid"
-        className="flex py-12 md:p-28 bg-neutral-900/20 items-center justify-center"
+        className="flex px-8 sm:px-0 py-12 md:p-28 bg-neutral-900/20 items-center justify-center"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
