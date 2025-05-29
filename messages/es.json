@@ -1,128 +1,144 @@
 {
   "home": {
-    "title": "HOLA!",
-    "name": "Sóc en Jordi", 
-    "description": "Desenvolupador de software apassionat de la tecnologia",
+    "title": "¡HOLA!",
+    "name": "Soy Jordi", 
+    "description": "Desarrollador de software apasionado por la tecnología",
     "typewriterTexts": [
-      "Full-Stack Developer",
-      "Emprenador i cul inquiet",
-      "Innovant amb la tecnologia"
+      "Desarrollador Full-Stack",
+      "Emprendedor y de mente inquieta",
+      "Innovando con la tecnología"
     ],
     "introduction": {
-    "heading": "Què faig amb la meva vida?",
-    "paragraph1": "💻 Treballo de <*Full-Stack Developer*> amb tecnologies com: *React.js*, *Next.js*, *.NET*, entre d'altres. Amb bases de dades com *SQL Server* i *MongoDB*.",
-    "paragraph2": "🚀 Soc una persona proactiva i intento sempre créixer tan personal com professionalment, ara mateix focalitzat amb <*IA*> i <*Blockchain*>.",
-    "paragraph3": "🏡  En l'àmbit personal em considero una persona involucrada en el meu poble, <*Centelles*>, sempre que puc col·laboro en ajudar les entitats de la Vila.",
-    "paragraph4": "🌍✈️ Els meus hobbies són <*viatjar*> i desconnectar a la <*muntanya*>, però en el meu temps lliure també soc <*PunxaDiscos*> a.k.a <*PD Puigdo*>."  }
+    "heading": "¿Qué hago con mi vida?",
+    "paragraph1": "💻 Trabajo como <*Desarrollador Full-Stack*> con tecnologías como: *React.js*, *Next.js*, *.NET*, entre otras. Con bases de datos como *SQL Server* y *MongoDB*.",
+    "paragraph2": "🚀 Soy una persona proactiva y siempre intento crecer tanto personal como profesionalmente, actualmente enfocado en <*IA*> y <*Blockchain*>.",
+    "paragraph3": "🏡 En el ámbito personal me considero una persona involucrada en mi pueblo, <*Centelles*>, siempre que puedo colaboro ayudando a las entidades del municipio.",
+    "paragraph4": "🌍✈️ Mis hobbies son <*viajar*> y desconectar en la <*montaña*>, pero en mi tiempo libre también soy <*DJ*> a.k.a <*PD Puigdo*>."  }
   },
   "Nav": {
-    "home": "Inici",
-    "projects": "Projectes",
-    "about": "Sobre mi",
-    "contact": "Contacte",
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto",
     "blog": "Blog",
-    "experience" : "Experiència"
+    "experience" : "Experiencia"
   },
   "projects": {
-    "title": "DESCOBREIX ALGUNS DELS MEUS PROJECTES",
-    "subtitle": "Explora els meu treballs i contribucions",
+    "title": "DESCUBRE ALGUNOS DE MIS PROYECTOS",
+    "subtitle": "Explora mis trabajos y contribuciones",
     "filters": {
-      "all": "Tots",
+      "all": "Todos",
       "web": "Web",
       "app": "App",
       "blockchain": "Blockchain",
-      "ia": "Intel·ligència Artificial"
+      "ia": "Inteligencia Artificial"
     },
-    "noProjects": "No hi ha projectes amb aquest filtre",
-    "viewCode": "Veure codi",
-    "viewDemo": "Veure demo",
-    "viewProjects": "Veure tots els projectes",
-    "footer": "No dubtis en <*contactar*> amb mi",
+    "noProjects": "No hay proyectos con este filtro",
+    "viewCode": "Ver código",
+    "viewDemo": "Ver demo",
+    "viewProjects": "Ver todos los proyectos",
+    "footer": "No dudes en <*contactar*> conmigo",
     "items": [
       {
       "id": 1,
       "title": "Holaglow",
-      "subtitle": "Plataforma digital per a la gestió i vendes en clíniques d’estètica",
+      "subtitle": "Plataforma digital para la gestión y ventas en clínicas de estética",
       "slug": "holaglow-crm",
-      "shortDescription": "Desenvolupament del web corporatiu, CRM intern i eina de vendes per a clíniques d’estètica",
-      "description": "Holaglow és una startup amb diverses clíniques d’estètica especialitzades en tractaments com el Botox i altres serveis de bellesa avançada. El projecte ha consistit en el desenvolupament complet d’un sistema digital format per un web corporatiu, una eina d’agendació d’hores i gestió de disponibilitat mèdica, i una aplicació interna de vendes (Dashboard). Aquesta aplicació permet gestionar cites, enviaments automàtics de WhatsApps i notificacions als clients, i s’ha integrat amb el sistema extern Flowww per optimitzar calendaris, tractaments i recursos. Com a Fullstack Developer, he participat en l’arquitectura del sistema, desenvolupament del frontend amb Next.js i Tailwind CSS, i backend amb .NET. Un dels reptes tècnics principals ha estat escalar el sistema i construir una passarel·la pròpia per afegir funcionalitats específiques que el sistema de tercers no proporcionava, especialment per a tractaments amb requeriments particulars. El projecte s’ha desenvolupat en equip amb una forta orientació a l’eficiència i a la millora contínua dels processos interns de les clíniques.",
-      "metaTitle": "Holaglow CRM i eina de vendes per a clíniques estètiques | Desenvolupament amb Next.js i .NET",
-      "metaDescription": "Descobreix el projecte Holaglow: una plataforma digital integral per a clíniques d’estètica, amb CRM, gestió de cites, notificacions i eina de vendes. Desenvolupat amb Next.js, Tailwind i .NET.",
+      "shortDescription": "Desarrollo del sitio web corporativo, CRM interno y herramienta de ventas para clínicas de estética",
+      "description": "Holaglow es una startup con varias clínicas de estética especializadas en tratamientos como Botox y otros servicios de belleza avanzada. El proyecto ha consistido en el desarrollo completo de un sistema digital formado por un sitio web corporativo, una herramienta de agenda de citas y gestión de disponibilidad médica, y una aplicación interna de ventas (Dashboard). Esta aplicación permite gestionar citas, envíos automáticos de WhatsApps y notificaciones a los clientes, y se ha integrado con el sistema externo Flowww para optimizar calendarios, tratamientos y recursos. Como Fullstack Developer, he participado en la arquitectura del sistema, desarrollo del frontend con Next.js y Tailwind CSS, y backend con .NET. Uno de los principales retos técnicos ha sido escalar el sistema y construir una pasarela propia para añadir funcionalidades específicas que el sistema de terceros no proporcionaba, especialmente para tratamientos con requisitos particulares. El proyecto se ha desarrollado en equipo con una fuerte orientación a la eficiencia y a la mejora continua de los procesos internos de las clínicas.",
+      "metaTitle": "Holaglow CRM y herramienta de ventas para clínicas estéticas | Desarrollo con Next.js y .NET",
+      "metaDescription": "Descubre el proyecto Holaglow: una plataforma digital integral para clínicas de estética, con CRM, gestión de citas, notificaciones y herramienta de ventas. Desarrollado con Next.js, Tailwind y .NET.",
       "tags": ["nextjs", "typescript", "tailwind", ".net"],
       "category": ["web", "app"],
-      "role": "Fullstack Developer",
-      "duration": "Juny 2023 – Juny 2025",
+      "role": "Desarrollador Fullstack",
+      "duration": "Junio 2023 – Junio 2025",
       "imageUrl": "/projects/holaglow.webp",
       "detailImageUrl":"/projects/holaglowDetailProject.webp",
-      "altText": "Screenshot of Holaglow CRM interface",
+      "altText": "Captura de pantalla de la interfaz de Holaglow CRM",
       "githubUrl": "",
       "liveUrl": "https://www.holaglow.com/"
       },
       {
         "id": 2,
         "title": "Okron",
-        "subtitle": "Una nova generació de GMAO intel·ligent i integrat amb IA, WhatsApp i control de planta en temps real.",
+        "subtitle": "Una nueva generación de GMAO inteligente e integrado con IA, WhatsApp y control de planta en tiempo real.",
         "slug": "okron-gmao",
-        "shortDescription": "GMAO intel·ligent per a PIMEs: gestió d'incidències, estocs i comandes amb IA i WhatsApp.",
-        "description": "Okron és una eina de gestió de manteniment (GMAO) dissenyada per optimitzar el funcionament de plantes industrials i empreses amb necessitats tècniques. Amb una interfície intuïtiva i enfocada a usabilitat, permet gestionar incidències, planificar manteniments, controlar l’estoc de recanvis i fer comandes a proveïdors — fins i tot via WhatsApp. Integrada amb IA i un chatbot propi, Okron automatitza processos clau i s’adapta fàcilment a sistemes de tercers, oferint una solució escalable i robusta tant per a PIMEs com per a entorns més grans. He liderat el desenvolupament tècnic com a CTO, creant l’arquitectura del sistema, la plataforma web i l’app mòbil des de zero amb un enfocament clar en escalabilitat i integracions intel·ligents.",
-        "metaTitle": "Okron GMAO - Gestió de Manteniment amb IA, WhatsApp i control intel·ligent",
-        "metaDescription": "Descobreix Okron, el GMAO intel·ligent per a PIMEs: gestiona incidències, estoc i comandes amb intel·ligència artificial i integració amb WhatsApp.",
-        "tags": ["nextjs", "typescript", "tailwind", ".net", "gmao", "intel·ligència artificial", "whatsapp api", "gestió de manteniment", "saas", "b2b"],
-        "category": ["web", "app"],
-        "techStack": "Next.js, TypeScript, Tailwind, .NET",
-        "role": "CTO / Fullstack Developer",
-        "publishedDate": "2024-03-15",
-        "duration": "Jan 2024 – Mar 2024",
+        "shortDescription": "GMAO inteligente para PYMES: gestión de incidencias, stocks y pedidos con IA y WhatsApp.",
+        "description": "Okron es una herramienta de gestión de mantenimiento (GMAO) diseñada para optimizar el funcionamiento de plantas industriales y empresas con necesidades técnicas. Con una interfaz intuitiva y enfocada en usabilidad, permite gestionar incidencias, planificar mantenimientos, controlar el stock de repuestos y hacer pedidos a proveedores — incluso vía WhatsApp. Integrada con IA y un chatbot propio, Okron automatiza procesos clave y se adapta fácilmente a sistemas de terceros, ofreciendo una solución escalable y robusta tanto para PYMES como para entornos más grandes. He liderado el desarrollo técnico como CTO, creando la arquitectura del sistema, la plataforma web y la app móvil desde cero con un enfoque claro en escalabilidad e integraciones inteligentes.",
+        "metaTitle": "Okron GMAO - Gestión de Mantenimiento con IA, WhatsApp y control inteligente",
+        "metaDescription": "Descubre Okron, el GMAO inteligente para PYMES: gestiona incidencias, stock y pedidos con inteligencia artificial e integración con WhatsApp.",
+        "tags": ["nextjs", "typescript", "tailwind", ".net" ],
+        "category": ["web", "app", "ia"],
+        "role": "CTO / Desarrollador Fullstack",
+        "duration": "Ene 2024 – Mar 2024",
         "imageUrl": "/projects/OkronLogo.webp",
-        "detailImageUrl": "/projects/holaglowDetailProject.webp",
-        "altText": "Captura de pantalla de la interfície d'Okron GMAO",
+        "detailImageUrl": "/projects/okronApp.webp",
+        "altText": "Captura de pantalla de la interfaz de Okron GMAO",
         "githubUrl": "",
         "liveUrl": "https://www.okron.io/"
+      },
+      {
+        "id": 3,
+        "title": "ChatBot IA",
+        "subtitle": "Un ChatGPT conectado a tu base de datos",
+        "slug": "chatbot-ia-database",
+        "shortDescription": "Chatbot con IA integrado con la base de datos del cliente para responder consultas de manera automatizada y eficiente.",
+        "description": "Este proyecto consiste en el desarrollo de un chatbot inteligente capaz de conectarse directamente con la base de datos de un cliente para extraer, interpretar y mostrar información relevante a través de una interfaz de conversación. Implementado con react, python e inteligencia artificial, el sistema permite realizar consultas en lenguaje natural y obtener respuestas claras, mejorando la accesibilidad de datos internos y la eficiencia operativa. Ha sido diseñado pensando en la seguridad, escalabilidad y flexibilidad, permitiendo adaptarlo fácilmente a diferentes estructuras de datos y sectores.",
+        "metaTitle": "ChatBot IA con acceso directo a base de datos - Proyecto Fullstack con Next.js",
+        "metaDescription": "Descubre este chatbot con inteligencia artificial que se conecta a la base de datos de una empresa para responder preguntas y extraer datos de manera eficiente.",
+        "tags": ["react", "python", "ia"], 
+        "category": ["web", "ia", "fullstack"],
+        "role": "Desarrollador Fullstack",
+        "duration": "Enero 2025 – Mayo 2025",
+        "imageUrl": "/projects/aiProject.webp",
+        "detailImageUrl": "/projects/chatbotAiClient.webp",
+        "altText": "Captura de pantalla del ChatBot IA con consulta de datos",
+        "githubUrl": "",
+        "liveUrl": ""
       }
-
     ]
   },
   "aboutMe" :{
-    "title": "DESCOBREIX QUI SOC",
-    "description": "I am a software engineer with a passion for building user-friendly and accessibl.",
-    "paragraph1": "Hola a tothom, em dic ¡*Jordi Puigdollers*¡ i soc de *Centelles*, *Barcelona*, *Catalunya*.",   
-    "paragraph2": "Actualment estic desenvolupant el meu propi projecte.",
-    "paragraph3": "Soc enginyer informàtic graduat a l'¡*UOC*¡.", 
-    "paragraph4": "A part de la tecnología i programar, també tinc interesos per:",
+    "title": "DESCUBRE QUIÉN SOY",
+    "description": "Soy un ingeniero de software con pasión por crear soluciones accesibles y fáciles de usar.",
+    "paragraph1": "Hola a todos, me llamo ¡*Jordi Puigdollers*¡ y soy de *Centelles*, *Barcelona*, *Cataluña*.",   
+    "paragraph2": "Actualmente estoy desarrollando mi propio proyecto.",
+    "paragraph3": "Soy ingeniero informático graduado en la ¡*UOC*¡.", 
+    "paragraph4": "Aparte de la tecnología y programar, también tengo intereses por:",
     "interests": [
       {"icon":"music", "text" : "*Música*"},
-      {"icon":"gamepad", "text" : "*Esports*"},
-      {"icon":"plane", "text" : "*Viatjar*"},
-      {"icon":"mountain", "text" : "*Muntanya*"},
-      {"icon":"book", "text" : "*Llegir*"}
+      {"icon":"gamepad", "text" : "*Deportes*"},
+      {"icon":"plane", "text" : "*Viajar*"},
+      {"icon":"mountain", "text" : "*Montaña*"},
+      {"icon":"book", "text" : "*Leer*"}
     ],
-    "tecnologies": "Tecnologies que utilitzo"
+    "tecnologies": "Tecnologías que utilizo"
   },
   "contact": {
-    "getInTouch": "CONTACTA'M",
-    "withUs": "contacte amb mi",
-    "monThu": "Dll-Dij",
-    "friday": "Divendres",
-    "name": "Nom i cognoms",
-    "email": "Correu electrònic",
-    "message": "Missatge",
-    "send": "Envia",
-    "sending": "Enviant...",
-    "success": "El teu missatge s'ha enviat!",
+    "getInTouch": "CONTÁCTAME",
+    "withUs": "contacto conmigo",
+    "monThu": "Lun-Jue",
+    "friday": "Viernes",
+    "name": "Nombre y apellidos",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "¡Tu mensaje ha sido enviado!",
     "errors": {
-      "name": "El nom és obligatori",
-      "email": "Introdueix un correu electrònic vàlid",
-      "message": "El missatge és obligatori"
+      "name": "El nombre es obligatorio",
+      "email": "Introduce un correo electrónico válido",
+      "message": "El mensaje es obligatorio"
     }
   },
   "experience": {
-    "title": "EXPERIÈNCIA",
-    "download": "Descarregar Currículum",
+    "title": "EXPERIENCIA",
+    "download": "Descargar Currículum",
     "items": [
       {
         "company": "Okron",
         "role": "CTO",
-        "date": "2024 - Present",
+        "date": "2024 - Presente",
         "description": "Cofundador y desarrollador full-stack en Okron, un software de gestión de almacenes y mantenimiento. Trabajo en la arquitectura del sistema, asegurando escalabilidad y buenas prácticas con SOLID y DDD. Implemento patrones de diseño que reducen la latencia y mejoran la experiencia del usuario. Desarrollo el backend con C# y MongoDB y el frontend con React y Next.js. Además, implemento pipelines de CI/CD en Azure para optimizar los despliegues y la infraestructura en la nube.",
         "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
       },
@@ -130,14 +146,14 @@
         "company": "Holaglow",
         "role": "Fullstack Developer",
         "date": "2023 - 2025",
-        "description": "Senior Full Stack Developer.Usar principios SOLID, Clean Code y patrones de diseño para los desarrollos. Desarrollar aplicación Front-End con React, Typescript, Nextjs y Angular. Desarrollar aplicación Back-End con C#, ASP.NET y microservicios. Net Core 6.0, Entity Framework, Linq. Base de datos con MySQL, SQL Server y MongoDB. Implementación de GraphQL y Kafka. Trabajar con metodologías agiles con SCRUM y Jira. Azure Devops, deployments y Github. Integración de tests automatizados vía postman y pipelines de azure, TDD.",
+        "description": "Senior Full Stack Developer. Usar principios SOLID, Clean Code y patrones de diseño para los desarrollos. Desarrollar aplicación Front-End con React, Typescript, Nextjs y Angular. Desarrollar aplicación Back-End con C#, ASP.NET y microservicios. Net Core 6.0, Entity Framework, Linq. Base de datos con MySQL, SQL Server y MongoDB. Implementación de GraphQL y Kafka. Trabajar con metodologías ágiles con SCRUM y Jira. Azure Devops, deployments y Github. Integración de tests automatizados vía postman y pipelines de azure, TDD.",
         "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
       },
       {
         "company": "Mapex",
         "role": "Platform Developer",
         "date": "2018 - 2023",
-        "description": "Técnico líder del equipo. Usar principios SOLID y patrones de diseño para los desarrollos. Trabajar con metodologías agiles cómo SCRUM y Jira. Desarrollar aplicaciones con VB.Net, C# y ASP.NET (Web y Api). Desarrollar customizaciones para clientes con POWER BI.",
+        "description": "Técnico líder del equipo. Usar principios SOLID y patrones de diseño para los desarrollos. Trabajar con metodologías ágiles cómo SCRUM y Jira. Desarrollar aplicaciones con VB.Net, C# y ASP.NET (Web y Api). Desarrollar customizaciones para clientes con POWER BI.",
         "techStack": ["C#", "Asp.Net", "SQLServer"]
       },
       {
@@ -151,7 +167,7 @@
   },
   "blog":{
     "title": "BLOG",
-    "subtitle": "Aquí podreu trobar articles tant professionals com personals"
+    "subtitle": "Aquí podrás encontrar artículos tanto profesionales como personales"
   },
   "metadata" :{
     "title": "Puigdo Dev",

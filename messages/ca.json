@@ -136,34 +136,34 @@
     "title": "EXPERIÈNCIA",
     "download": "Descarregar Currículum",
     "items": [
-      {
+    {
         "company": "Okron",
         "role": "CTO",
-        "date": "2024 - Present",
-        "description": "Cofundador y desarrollador full-stack en Okron, un software de gestión de almacenes y mantenimiento. Trabajo en la arquitectura del sistema, asegurando escalabilidad y buenas prácticas con SOLID y DDD. Implemento patrones de diseño que reducen la latencia y mejoran la experiencia del usuario. Desarrollo el backend con C# y MongoDB y el frontend con React y Next.js. Además, implemento pipelines de CI/CD en Azure para optimizar los despliegues y la infraestructura en la nube.",
+        "date": "2024 - Actualitat",
+        "description": "Cofundador i desenvolupador full-stack a Okron, un programari de gestió de magatzems i manteniment. Treballo en l'arquitectura del sistema, assegurant escalabilitat i bones pràctiques amb SOLID i DDD. Implemento patrons de disseny que redueixen la latència i milloren l'experiència de l'usuari. Desenvolupo el backend amb C# i MongoDB i el frontend amb React i Next.js. A més, implemento pipelines de CI/CD a Azure per optimitzar els desplegaments i la infraestructura al núvol.",
         "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
-      },
-      {
+    },
+    {
         "company": "Holaglow",
         "role": "Fullstack Developer",
         "date": "2023 - 2025",
-        "description": "Senior Full Stack Developer.Usar principios SOLID, Clean Code y patrones de diseño para los desarrollos. Desarrollar aplicación Front-End con React, Typescript, Nextjs y Angular. Desarrollar aplicación Back-End con C#, ASP.NET y microservicios. Net Core 6.0, Entity Framework, Linq. Base de datos con MySQL, SQL Server y MongoDB. Implementación de GraphQL y Kafka. Trabajar con metodologías agiles con SCRUM y Jira. Azure Devops, deployments y Github. Integración de tests automatizados vía postman y pipelines de azure, TDD.",
+        "description": "Senior Full Stack Developer. Ús de principis SOLID, Clean Code i patrons de disseny per als desenvolupaments. Desenvolupar aplicació Front-End amb React, Typescript, Nextjs i Angular. Desenvolupar aplicació Back-End amb C#, ASP.NET i microserveis. Net Core 6.0, Entity Framework, Linq. Base de dades amb MySQL, SQL Server i MongoDB. Implementació de GraphQL i Kafka. Treballar amb metodologies àgils com SCRUM i Jira. Azure Devops, desplegaments i Github. Integració de tests automatitzats via postman i pipelines d'azure, TDD.",
         "techStack": ["C#", "React", "Next", "Typescript", "SQLServer"]
-      },
-      {
+    },
+    {
         "company": "Mapex",
         "role": "Platform Developer",
         "date": "2018 - 2023",
-        "description": "Técnico líder del equipo. Usar principios SOLID y patrones de diseño para los desarrollos. Trabajar con metodologías agiles cómo SCRUM y Jira. Desarrollar aplicaciones con VB.Net, C# y ASP.NET (Web y Api). Desarrollar customizaciones para clientes con POWER BI.",
+        "description": "Tècnic líder de l'equip. Ús de principis SOLID i patrons de disseny per als desenvolupaments. Treballar amb metodologies àgils com SCRUM i Jira. Desenvolupar aplicacions amb VB.Net, C# i ASP.NET (Web i Api). Desenvolupar personalitzacions per a clients amb POWER BI.",
         "techStack": ["C#", "Asp.Net", "SQLServer"]
-      },
-      {
+    },
+    {
         "company": "Alvic",
         "role": "Developer",
         "date": "2016 - 2018",
-        "description": "Desarrollador de software en C# y Delphi.",
+        "description": "Desenvolupador de software en C# i Delphi.",
         "techStack": ["C#", "Delphi"]
-      }
+    }
     ]
   },
   "blog":{
